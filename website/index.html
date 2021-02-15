@@ -1,10 +1,161 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>First App</title>
+<!--style type="text/css">
+p {
+	color: blue;
+	font-family: Times New Roman;
+	font-size: 20px
+}
+h1,h2 {
+		color: green;
+		font-size: 25px;
+		font-family: monospace;
+		text-align: center;
+}
+.first {
+	color: yellow;
+	font-size: 45px;
+	text-align: right;
+}
+
+#second,div {
+	color:red;
+	font-size: 35px;
+	text-align: left;
+}
+</style>-->
+
+
+
+<!--<body>
+	<header>my name is akhil mohammad</header>
+	<nav>Howard University</nav>
+	<h1>Akhil Mohammad</h1>
+	<section1>
+		<article>Arif Mohamamd</article>
+	</section1>
+	<section2>Asif Mohammad</section2>
+	<aside>Abid mohammad</aside>
+	<footer>Copyright Akhil Mohammad</footer>
+	<div>
+	<ul>
+		<li>Milk</li>
+		<li>sugar</li>
+		<li>Green pepper
+			<ul>
+				<li>bell pepper</li>
+				<li>green chelli</li>
+				<li>Roasted pepper</li>
+
+			</ul>
+
+
+		</li>
+		<li>Vegetables</li>
+	</ul>
+</div>
+<ul>
+	<li><a href="#section1">first paragraph</a></li>
+	<li><a href="#section2">Second paragraph</a></li>
+	<li><a href="#section3">Third Paragraph</a></li>
+	<li><a href="#section4">fourth Paragraph</a></li>
+	<li><a href="#section5">Fifth Paragraph</a></li>
+	<li><a href="#section6">Sixth Paragraph</a></li>
+
+</ul>
+
+<section id="section1">
+	<h1>Information about first paragraph</h1>
+	<p>You’ve probably heard of Lorem Ipsum before – it’s the most-used dummy text excerpt out there. People use it because it has a fairly normal distribution of letters and words (making it look like normal English), but it’s also Latin, which means your average reader won’t get distracted by trying to read it. It’s perfect for showcasing design work as it should look when fleshed out with text, because it allows viewers to focus on the design work itself, instead of the text. It’s also a great way to showcase the functionality of programs like word processors, font types, and more.</p>
+</section>
+<section id="section2">
+	<h1>information about second paragraph</h1>
+	<p>Maybe you have a custom-styled ordered list you want to show off, or maybe you just want a long chunk of Lorem Ipsum that’s already wrapped in paragraph tags. No matter the need, we’ve put together a number of Lorem Ipsum samples ready to go with HTML tags and formatting in place. All you have to do is click the heading of any section on this page, and that HTML-Ipsum block is copied to your clipboard and ready to be loaded into a website redesign template, brand new design mockup, or any other digital project you might need dummy text for.</p>
+	
+</section>
+<section id="section3">
+	<h1>Information about third paragraph</h1>
+	<p>No matter the project, please remember to replace your fancy HTML-Ipsum with real content before you go live - this is especially important if you're planning to implement a content-based marketing strategy for your new creation! Lorem Ipsum text is all well and good to demonstrate a design or project, but if you set a website loose on the Internet without replacing dummy text with relevant, high quality content, you’ll run into all sorts of potential Search Engine Optimization issues like thin content, duplicate content, and more.</p>
+</section>
+<section id="section4">
+	<h1>Information about fourth paragraph</h1>
+	<p>No matter the project, please remember to replace your fancy HTML-Ipsum with real content before you go live - this is especially important if you're planning to implement a content-based marketing strategy for your new creation! Lorem Ipsum text is all well and good to demonstrate a design or project, but if you set a website loose on the Internet without replacing dummy text with relevant, high quality content, you’ll run into all sorts of potential Search Engine Optimization issues like thin content, duplicate content, and more.</p>
+</section>
+<section id="section5">
+	<h1>Information about fifth paragraph</h1>
+	<p>No matter the project, please remember to replace your fancy HTML-Ipsum with real content before you go live - this is especially important if you're planning to implement a content-based marketing strategy for your new creation! Lorem Ipsum text is all well and good to demonstrate a design or project, but if you set a website loose on the Internet without replacing dummy text with relevant, high quality content, you’ll run into all sorts of potential Search Engine Optimization issues like thin content, duplicate content, and more.</p>
+</section>
+<section id="section6">
+	<h1>Information about sixth paragraph</h1>
+	<p>No matter the project, please remember to replace your fancy HTML-Ipsum with real content before you go live - this is especially important if you're planning to implement a content-based marketing strategy for your new creation! Lorem Ipsum text is all well and good to demonstrate a design or project, but if you set a website loose on the Internet without replacing dummy text with relevant, high quality content, you’ll run into all sorts of potential Search Engine Optimization issues like thin content, duplicate content, and more.
+	</p>
+</section>
+<p>
+
+<img src="https://images.app.goo.gl/gqDArboUnjRSe95P8" width="700" height="500" alt="image with Cat">
+</p>
+
+<h2>HTMl</h2>
+<p>Hyper text markup language</p>
+<h3>CSS</h3>
+<p>cascading styles sheets</p>
+
+<p class="first">Web Design with HTML, CSS, JavaScript and jQuery Set by Jon Duckett
+MY ABSOLUTE TOP PICK. This is a set that combines 2 books for a cheaper price. Both books are excellent: very visual, easy to look up things in, and get straight to the point without a lot of blah blah</p>
+<h4 id="second">Web development</h4>
+<div>HTML and CSS: Design and Build Websites by Jon Duckett
+MY TOP PICK FOR HTML/CSS. Great book that is very visually oriented. It’s very easy to look through, especially if you are in a hurry. It’s also very concise and to the point.</div>
+
+
+</body>-->
+<style type="text/css">
+	header li {
+		list-style: none;
+	}
+a:link, a:visited{
+	text-decoration: none;
+	background-color: green;
+	border: 2px solid green;
+	color: yellow;
+	margin-bottom: 2px;
+	width: 20px;
+
+}
+a:hover,a:active {
+	background-color: green;
+	color: purple
+}
+header li:nth-child(3){
+	font-size: 24px
+}
+section div:nth-child(odd){
+	background-color: red;
+}
+section div:nth-child(2):hover{
+	cursor:pointer;
+	color: blue;
+}
+</style>
 </head>
 <body>
-	<h1>Webiste development</h1>
-
+	<h1>Pseudo selectors</h1>
+	<header>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="https://www.google.com/">Google</a></li>
+		<li><a href="https://www.facebook.com/">facebook</a></li>
+	</ul>
+</header>
+<section>
+	<div>DIV 1</div>
+	<div>DIV 2</div>
+	<div>DIV 3</div>
+	<div>DIV 4</div>
+	<div>DIV 5</div>
+</section>
 </body>
+
 </html>
